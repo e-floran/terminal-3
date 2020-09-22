@@ -1,0 +1,18 @@
+  287  touch php_france_2019.csv
+  288  grep "PHP" < wilders.csv | wc -l >php_france_2019.csv
+  289  cat php_france_2019.csv
+  290  grep JavaScript wilders.csv > biarritz.csv
+  291  grep JavaScript wilders.csv > toulouse.csv
+  292  touch javascript_biarritz_toulouse.csv
+  293  cat biarritz.csv toulouse.csv | sort >javascript_biarritz_toulouse.csv
+  294  cat javascript_biarritz_toulouse.csv
+  295  grep Biarritz,France,2019,JavaScript wilders.csv > biarritz.csv
+  296  cat biarritz.csv
+  297  grep Toulouse,France,2019,JavaScript wilders.csv > toulouse.csv
+  298  cat toulouse.csv
+  299  cat biarritz.csv toulouse.csv |sort>javascript_biarritz_toulouse.csv
+  300  cat javascript_biarritz_toulouse.csv
+  301  man tail
+  302  touch history.txt
+  303  history
+  304  history | tail -n 18 > history.txt
